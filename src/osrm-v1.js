@@ -316,7 +316,7 @@
 			for (i = 0; i < vias.length; i++) {
 				viaLoc = vias[i].location;
 				wps.push(new Waypoint(L.latLng(viaLoc[1], viaLoc[0]),
-				                            inputWaypoints[i].name,
+				                            vias[i].name,
 											inputWaypoints[i].options));
 			}
 
